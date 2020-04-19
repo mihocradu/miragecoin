@@ -1,0 +1,35 @@
+src/*.exe
+src/miragecoin
+src/miragecoind
+src/test_miragecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.miragecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+miragecoin-qt
+Miragecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+miragecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+100755
